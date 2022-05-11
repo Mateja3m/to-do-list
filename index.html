@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="book.png">
+
 
     <!-- Bootstrap -->
     <link
@@ -14,11 +16,11 @@
     />
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
-    <title>To-do application</title>
+    <title>To-do List</title>
   </head>
   <body>
     <div class="container">
-      <h1 class="display-4 text-muted">To do application</h1>
+      <h1 class="display-4 text-muted">To do List</h1>
       <div class="wrapper">
         <div class="input-group mb-3">
           <input
@@ -30,14 +32,14 @@
           />
           <button
             id="btn"
-            class="btn btn-outline-secondary"
+            class="btn btn-outline-secondary ml-2"
             type="button"
             id="button-addon2"
           >
             Add
           </button>
         </div>
-        <ol id="tasks" class="list-group list-group-numbered"></ol>
+        <ul id="tasks" class="list-group"></ul>
       </div>
     </div>
 
